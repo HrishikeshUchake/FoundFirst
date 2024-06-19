@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: GroupsTest.ReviewsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.450 s <<< FAILURE! -- in GroupsTest.ReviewsTest
+GroupsTest.ReviewsTest.testGetPeerMentorReviews -- Time elapsed: 0.279 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "project.FindRight.Users.User.getUserName()" because "user" is null
+	at project.FindRight.PeerMentor.Review.ReviewDTO.<init>(ReviewDTO.java:16)
+	at project.FindRight.PeerMentor.Review.ReviewsController.lambda$getPeerMentorReviews$0(ReviewsController.java:142)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at project.FindRight.PeerMentor.Review.ReviewsController.getPeerMentorReviews(ReviewsController.java:144)
+	at GroupsTest.ReviewsTest.testGetPeerMentorReviews(ReviewsTest.java:135)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

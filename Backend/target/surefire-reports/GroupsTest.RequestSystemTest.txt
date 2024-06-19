@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: GroupsTest.RequestSystemTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.954 s -- in GroupsTest.RequestSystemTest
