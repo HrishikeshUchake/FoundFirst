@@ -1,4 +1,4 @@
-# FindRight App – Lost & Found + Study Group Planner for ISU
+# FoundFirst App – Lost & Found + Study Group Planner for ISU
 
 **FindRight** is a unified web application designed for Iowa State University (ISU) students. It combines two essential campus utilities: a **Lost and Found portal** and a **Study Group Planner** so that every student can find everything right, all in one place. Built with Spring Boot, MySQL, and WebSockets, the app emphasizes real-time interaction, organization, and streamlined communication.
 
