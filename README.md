@@ -32,8 +32,6 @@
 - **Database**: MySQL
 - **Real-Time Communication**: WebSocket (Spring)
 - **CI/CD**: GitHub Actions + Docker
-- **Design Patterns**: Command Pattern for modular UI actions
-- **Project Management**: Agile methodology with UML artifacts and Scrum roles
 
 ---
 
@@ -79,7 +77,7 @@ The application will be available at `http://localhost:8080`
 * **Structured Design**: Backed by comprehensive UML design and documentation
 * **Modular Architecture**: Command design pattern implementation for maintainable code
 * **Automated Deployment**: CI/CD pipelines ensuring reliable releases
-* **User Authentication**: Secure login system for ISU students
+* **User Authentication**: Secure login system with OTP verification
 * **Responsive Design**: Mobile-friendly interface for on-the-go access
 
 ---
